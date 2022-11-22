@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.resposnive-container {
+    display: flex;
+
+}
+
+@media screen and (max-width:768px) {
+    .resposnive-container {
+        flex-direction: column;
+        margin-bottom: 200px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .resposnive-container {
+        margin-bottom: 180px;
+    }
+}
+
+.images-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+
+}
+
+.image-box {
+    width: 25vw;
+    height: 75vh;
+    margin: 8px
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    margin-left: 30px;
+    height: 100vh;
+}
+
+.sub-heading {
+    color: rgba(163, 161, 161, 1);
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.main-heading {
+    color: rgba(21, 21, 21, 1);
+}
+
+.price {
+    font-family: Roboto;
+    color: rgba(21, 21, 21, 1);
+    font-size: 20px;
+}
+
+.description {
+    font-family: Roboto;
+    font-size: 20px;
+    color: rgba(21, 21, 21, 1);
+}
+
+
+.color {
+    font-family: Roboto;
+    font-size: 20px;
+    color: rgba(21, 21, 21, 1);
+    font-weight: 400;
+}
+
+.colors-container {
+    padding: 10px;
+}
+
+.color-icon {
+    margin: 15px;
+    height: 30px;
+
+}
+
+.sizes-container {
+    display: flex;
+
+}
+
+.size {
+    font-size: 20px;
+    margin: 20px;
+    border: solid 1px rgba(237, 237, 237, 1);
+    padding: 10px;
+}
+
+
+@media screen and (max-width:768px) {
+    .size {
+        font-size: 18px;
+    }
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    border: solid 1px;
+    width: 120px;
+    height: 20px;
+
+}
+
+.button {
+    background-color: transparent;
+    border: solid 1px rgba(237, 237, 237, 1);
+}
+
+.increase-button {
+    color: rgba(157, 157, 157, 1);
+    font-size: 25px;
+    background-color: transparent;
+    border: none;
+
+}
+
+.decrease-button {
+    color: rgba(157, 157, 157, 1);
+    font-size: 25px;
+    background-color: transparent;
+    border: none;
+
+
+}
+
+.count {
+    font-size: 25px;
+
+}
+
+.button-total-container {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.add-cart-container {
+    padding: 25px;
+    border: solid 1px;
+    width: 220px;
+    height: 20px;
+    margin-left: 15px;
+}
+
+.add-to-cart-btn {
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+}
+
+.buy-button {
+    background-color: rgba(0, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
+    width: 75%;
+    font-size: 25px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.shipping-container {
+    display: flex;
+    margin: 15px;
+}
+
+
+.logo {
+    height: 60px;
+    width: 60px;
+}
+
+.para {
+    font-size: 20px;
+    margin: 10px;
+    text-decoration: underline;
+}
+
+.small-container {
+    display: flex;
+    width: 100vw;
+}
+
+
+.bottom-container {
+    display: flex;
+    background-color: #EDEDED;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+    width: 100vw;
+}
+
+@media screen and (max-width:768px) {
+    .bottom-container {
+        margin-top: 120px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .bottom-container {
+        margin-top: 200px;
+    }
+}
+
+.sub-container {
+    text-align: center;
+}
+
+.bottom-heading {
+    color: #000000;
+    font-family: Roboto;
+}
+
+.bottom-description {
+    color: #000000;
+    font-family: Roboto;
+    font-size: 18px;
+}
+
+.create-btn {
+    padding: 10px;
+    height: 50px;
+    color: #000000;
+    font-family: Roboto;
+    border: solid 1px;
+}
+
+.product-container {
+    display: flex;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.description-para {
+    font-size: 25px;
+}
+
+.img {
+    height: 280px;
+    width: 310px;
+}
+
+.product-heading {
+    font-size: 25px;
+    font-family: Roboto;
+    color: #000000;
+}
+
+.product-description {
+    font-size: 18px;
+    font-family: Roboto;
+    color: #000000;
+}
+
+
+
+.border {
+    border: solid 1px;
+}
